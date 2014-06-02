@@ -30,6 +30,10 @@ PRODUCT_COPY_FILES += \
     device/bq/maxwell2qc/prebuilt/gpsconfig.xml:system/etc/gps/gpsconfig.xml \
     device/bq/maxwell2qc/prebuilt/media_profiles.xml:system/etc/media_profiles.xml
 
+# Rootdir
+PRODUCT_COPY_FILES += \
+    device/bq/maxwell2qc/rootdir/init.device.rc:root/init.device.rc
+
 # Default config
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=213
