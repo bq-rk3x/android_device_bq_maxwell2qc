@@ -12,9 +12,7 @@ Use the following local manifest:
     <?xml version="1.0" encoding="UTF-8"?>
     <manifest>
       <remove-project name="CyanogenMod/android_frameworks_av" />
-      <remove-project name="CyanogenMod/android_frameworks_native" />
       <project name="bq-rk3x/android_frameworks_av" path="frameworks/av" revision="cm-11.0" />
-      <project name="bq-rk3x/android_frameworks_native" path="frameworks/native" revision="cm-11.0" />
 
       <project name="bq-rk3x/android_device_bq_maxwell2qc" path="device/bq/maxwell2plus" revision="cm-11.0" />
       <project name="bq-rk3x/android_device_bq_rockchip-common" path="device/bq/rockchip-common" revision="cm-11.0" />
