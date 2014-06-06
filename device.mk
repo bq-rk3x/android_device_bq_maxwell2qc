@@ -21,14 +21,12 @@ DEVICE_PACKAGE_OVERLAYS += device/bq/maxwell2qc/overlay
 
 # Hardware-specific features
 PRODUCT_COPY_FILES += \
-    frameworks/native/data/etc/android.hardware.camera.autofocus.xml:system/etc/permissions/android.hardware.camera.autofocus.xml \
     frameworks/native/data/etc/android.hardware.location.gps.xml:system/etc/permissions/android.hardware.location.gps.xml
 
 # Prebuilt
 PRODUCT_COPY_FILES += \
     device/bq/maxwell2qc/prebuilt/gps.conf:system/etc/gps.conf \
-    device/bq/maxwell2qc/prebuilt/gpsconfig.xml:system/etc/gps/gpsconfig.xml \
-    device/bq/maxwell2qc/prebuilt/media_profiles.xml:system/etc/media_profiles.xml
+    device/bq/maxwell2qc/prebuilt/gpsconfig.xml:system/etc/gps/gpsconfig.xml
 
 # Rootdir
 PRODUCT_COPY_FILES += \
