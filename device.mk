@@ -34,6 +34,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/bq/maxwell2qc/rootdir/init.device.rc:root/init.device.rc
 
+# Sensors
+PRODUCT_PACKAGES += \
+    sensors.rk30board
+
 # Default config
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=213
