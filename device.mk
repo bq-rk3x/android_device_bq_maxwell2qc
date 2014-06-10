@@ -19,16 +19,13 @@ PRODUCT_AAPT_PREF_CONFIG := tvdpi
 
 DEVICE_PACKAGE_OVERLAYS += device/bq/maxwell2qc/overlay
 
-# Hardware-specific features
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.location.gps.xml:system/etc/permissions/android.hardware.location.gps.xml
 
-# Config
 PRODUCT_COPY_FILES += \
     device/bq/maxwell2qc/config/gps.conf:system/etc/gps.conf \
     device/bq/maxwell2qc/config/gpsconfig.xml:system/etc/gps/gpsconfig.xml \
     device/bq/maxwell2qc/config/init.device.rc:root/init.device.rc
 
-# Default config
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=213
