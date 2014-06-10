@@ -23,3 +23,7 @@ TARGET_OTA_ASSERT_DEVICE := maxwell2qc,bq_Maxwell2_QuadCore
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/bq/maxwell2qc/bluetooth
 
 TARGET_KERNEL_CONFIG := cyanogenmod_maxwell2qc_defconfig
+
+# TWRP specific build flags
+DEVICE_RESOLUTION := 800x1280
+BOARD_HAS_FLIPPED_SCREEN := true
