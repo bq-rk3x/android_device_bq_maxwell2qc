@@ -15,6 +15,3 @@
 #
 
 add_lunch_combo cm_maxwell2qc-userdebug
-
-# Run device patches on the tree
-sh device/bq/maxwell2qc/patches/apply.sh
