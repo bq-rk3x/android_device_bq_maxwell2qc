@@ -34,5 +34,5 @@ PRODUCT_MANUFACTURER := bq
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=bq_Maxwell2_QuadCore
 
 # Inherit from the non-open-source side
-$(call inherit-product, vendor/bq/rk31-common/rockchip-vendor.mk)
+$(call inherit-product, vendor/bq/rk3188-common/rk3188-vendor.mk)
 $(call inherit-product, vendor/bq/maxwell2qc/maxwell2qc-vendor.mk)
