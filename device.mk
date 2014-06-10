@@ -23,14 +23,11 @@ DEVICE_PACKAGE_OVERLAYS += device/bq/maxwell2qc/overlay
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.location.gps.xml:system/etc/permissions/android.hardware.location.gps.xml
 
-# Prebuilt
+# Config
 PRODUCT_COPY_FILES += \
-    device/bq/maxwell2qc/prebuilt/gps.conf:system/etc/gps.conf \
-    device/bq/maxwell2qc/prebuilt/gpsconfig.xml:system/etc/gps/gpsconfig.xml
-
-# Rootdir
-PRODUCT_COPY_FILES += \
-    device/bq/maxwell2qc/rootdir/init.device.rc:root/init.device.rc
+    device/bq/maxwell2qc/config/gps.conf:system/etc/gps.conf \
+    device/bq/maxwell2qc/config/gpsconfig.xml:system/etc/gps/gpsconfig.xml \
+    device/bq/maxwell2qc/config/init.device.rc:root/init.device.rc
 
 # Default config
 PRODUCT_PROPERTY_OVERRIDES += \
