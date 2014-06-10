@@ -18,10 +18,8 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 
 # Inherit device specific configurations
+$(call inherit-product, device/bq/rk3188-common/device-common.mk)
 $(call inherit-product, device/bq/maxwell2qc/device.mk)
-
-# Inherit Rockchip common definitions
-$(call inherit-product, device/bq/rockchip-common/device-common.mk)
 
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := full_maxwell2qc
@@ -31,5 +29,5 @@ PRODUCT_MODEL := bq Maxwell 2 Quad Core
 PRODUCT_MANUFACTURER := bq
 
 # Inherit from the non-open-source side
-$(call inherit-product, vendor/bq/rockchip-common/rockchip-vendor.mk)
+$(call inherit-product, vendor/bq/rk3188-common/rockchip-vendor.mk)
 $(call inherit-product, vendor/bq/maxwell2qc/maxwell2qc-vendor.mk)

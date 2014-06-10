@@ -15,7 +15,7 @@ Use the following local manifest:
       <project name="bq-rk3x/android_frameworks_av" path="frameworks/av" revision="cm-11.0" />
 
       <project name="bq-rk3x/android_device_bq_maxwell2qc" path="device/bq/maxwell2plus" revision="cm-11.0" />
-      <project name="bq-rk3x/android_device_bq_rockchip-common" path="device/bq/rockchip-common" revision="cm-11.0" />
+      <project name="bq-rk3x/android_device_bq_rk3188-common" path="device/bq/rk3188-common" revision="cm-11.0" />
       <project name="bq-rk3x/android_kernel_bq_rk3188" path="kernel/bq/rk3188" revision="cm-11.0" />
       <project name="bq-rk3x/proprietary_vendor_bq" path="vendor/bq" revision="cm-11.0" />
     </manifest>
